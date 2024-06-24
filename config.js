@@ -25,9 +25,9 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 
-global.devs = "923192173398" // Developer Contact
+global.devs = "256774856806" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923192173398";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "256704436773";
 
 
 
@@ -35,8 +35,8 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 //========================= [ BOT SETTINGS ] =========================\\
 global.style = process.env.STYLE   || '5',  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "true"; // Make it "true" if bot not responed
-global.gdbye = process.env.GOODBYE || "false"; 
-global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
+global.gdbye = process.env.GOODBYE || "true"; 
+global.wlcm  = process.env.WELCOME || "true";  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 5,
 global.disablepm = process.env.DISABLE_PM || "false",
@@ -61,7 +61,7 @@ global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://myqr-43bb863fa5eb.herokuapp.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ;
+global.SESSION_ID = process.env.SESSION_ID ||  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR05pcGo0amFiclI2cDNMeVpqS3RMa3pGOFJESTNMclMrYytmRSszdDduZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWkRIOWZ2MkZMUk1ldEdkL3ZtdUgvZDBlaWFTNFk1U2ZwcytyTUtTZUZUTT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhSzBISU5kYmpXRnJhejZwRGxITjN2MnVtMzN0MGEwblQ2aVZSVnlnVUdRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhbFhCekJKaU5xeE85YVVpRW9iR3h2akZCbVJRMTFUSE1ua0VqK0JKdFJzPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImVIUDlhMUlwSjFpdDNKNWllbit0TnBrL2hsQ1N0S1VmekJrYkJUdjZ0MVU9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjVQSGtnOHVEZ1dmOE91Uk82NW14cTFvMzIyd21XaEFIQmtoSjdDU1g4Rms9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiV0N4WWN6RlRKTlA0RUVtNUU4czhxemk5ajFCUi85Nk9oYTFBeXBlSjNGWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidWVCQnRMVHp0TWFMN0dicm5ZOXRKMEdHNmptZXZRSXAzWE5xUjU1dHB3QT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1SUGhtRERPcHVFejdjS3lsWCtXMDZFWGk5cmxzTkY0UUNhTmdpaytZM3d4L1FtTGhYVTNBbnhUTEtYeEd5YW1wYldhSjNWZkJvTmhFZkZZajNvWGpBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjM2LCJhZHZTZWNyZXRLZXkiOiJwdk85cmtOcitkaFlBRFI5YTN0Y2ZvWW1aN2dQK3l3YUl0cXBQV2FDSTFzPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJ3TnpKVVRSQ1RMNm84bTFndTcxZTRRIiwicGhvbmVJZCI6ImUwYmJjNDhhLTU5YTEtNDExYy05NjQ0LTVjNTk5Yjc5NDQ2ZCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJuUXZnYVdHUzRUbmcrWHhsbWxXZnVEWERVNkk9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTEM4SS92UUNnOEU0bU43UU5JenBJVGZ0YWlzPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IjUyNFZBQlAzIiwibWUiOnsiaWQiOiIyNTY3NzQ4NTY4MDY6OEBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJMYXVuY2hlciJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTDYyajdjREVMMzI1N01HR0FJZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiZkNqeit6NEhqbU9ycGYxa3d1dUNvRndwU1grNkJrdUV0bERYWVlLM1RIRT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiMkIvcHIxbm9CTm5KSVI5U3dqUS9wT3lLQTl0YTR6R0Y3TlZNYldQTlFDdUtNN1d4MGY0WER3YlFLWG9vS1Jaa2Jscy9MdTZwOHBDN0huckNCZ0NIQXc9PSIsImRldmljZVNpZ25hdHVyZSI6InVoaDFQSDZpQStkenlIdENBandndzVXQW9tMXR1MG5KeW1KRUtGaEFVZnNNUWJNRzIzdTRDd29uWFU1YU94R0wxUHhqWHZtT1BlbTU4ZDJmYXhIWGlRPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU2Nzc0ODU2ODA2OjhAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCWHdvOC9zK0I0NWpxNlg5Wk1McmdxQmNLVWwvdWdaTGhMWlExMkdDdDB4eCJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcxOTI3MDIyMH0=" ;
 
 
 module.exports = {
